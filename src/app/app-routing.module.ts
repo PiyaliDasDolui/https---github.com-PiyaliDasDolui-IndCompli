@@ -1,16 +1,32 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AboutusComponent } from './features/aboutus/aboutus.component';
-import { CarouselComponent } from './features/carousel/carousel.component';
-import { HomeComponent } from './features/home/home.component';
+
+
+// const routes: Routes = [
+//   {path:'',component: HomeComponent},
+//   {
+//     path:'about',
+//     component: AboutusComponent
+//   }
+// ];
 
 const routes: Routes = [
-  {path:'',component: CarouselComponent},
   {
-    path:'about',
-    component: AboutusComponent
+    path:'',
+    children:[
+      {path: '', redirectTo: '/home', pathMatch: 'full'},
+      {
+        path: 'home',
+        loadChildren: 'src/app/features/home-module/home-module.module#HomeModuleModule'
+      },
+      {
+        path: 'about',
+        loadChildren: 'src/app/features/about/about.module#AboutModule'
+      }
+    ]
   }
-];
+
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
