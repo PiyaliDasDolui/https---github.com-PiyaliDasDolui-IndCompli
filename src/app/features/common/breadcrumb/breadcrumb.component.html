@@ -1,3 +1,20 @@
-<div>
+<!-- <div>
   <img src={{img}} >
-</div>
+</div> -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<ol class="breadcrumb">
+  <li *ngFor="let breadcrumb of breadcrumb$ | async; last as isLast;"
+      class="breadcrumb-item"
+      [ngClass]="{'active': isLast}" aria-current="page">
+    <a *ngIf="!isLast; else lastRoute"
+       [routerLink]="[breadcrumb.url]"
+       routerLinkActive="active">
+      {{ breadcrumb.lable }}
+    </a>
+    <ng-template #lastRoute>{{ breadcrumb.lable }}</ng-template>
+  </li>
+</ol>

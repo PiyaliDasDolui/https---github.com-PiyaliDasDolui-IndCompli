@@ -8,12 +8,14 @@ import { HomeHeaderComponent } from './features/common/home-header/home-header.c
 import {FooterComponent} from './features/common/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { BreadcrumbComponent } from './features/common/breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeHeaderComponent,
     FooterComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,

@@ -13,14 +13,27 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path:'',
+    data:{
+      breadcrumb: null
+    },
     children:[
-      {path: '', redirectTo: '/home', pathMatch: 'full'},
+      {path: '',
+      data:{
+        breadcrumb: null
+      },
+      redirectTo: '/home', pathMatch: 'full'},
       {
         path: 'home',
+        data:{
+          breadcrumb: null
+        },
         loadChildren: 'src/app/features/home-module/home-module.module#HomeModuleModule'
       },
       {
         path: 'about',
+        data:{
+          breadcrumb: 'about'
+        },
         loadChildren: 'src/app/features/about/about.module#AboutModule'
       }
     ]

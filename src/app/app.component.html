@@ -6,6 +6,23 @@
 </div>
 
 <app-home-header></app-home-header>
+<!-- <app-breadcrumb></app-breadcrumb> -->
+
+<!-- breadcrumb -->
+<br>
+<br>
+<div class="col">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"
+      *ngFor="let item of breadCrumbList; let i = index"
+      [class.active]="i===breadCrumbList.length-1">
+      <a [routerLink]="item.path" *ngIf="i!==breadCrumbList.length-1">
+        {{ item.name }}
+      </a>
+      <span *ngIf="i===breadCrumbList.length-1">{{ item.name }}</span>
+    </li>
+  </ol>
+</div>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
 
