@@ -12,15 +12,16 @@ export class AppComponent {
   name: string;
   menu: Array<any> = [];
   breadCrumbList: Array<any> = [];
-
+  isBreadcrumbToShow = true;
   constructor(private _router: Router, private menuService: MenuServiceService){}
 
   ngOnInit() {
     this.menu = this.menuService.getMenu();
-    this.listenRouting();
+    //this.listenRouting();
   }
 
   listenRouting() {
+    debugger;
     let routerUrl: string,
         routerList: Array<any>,
         target: any;

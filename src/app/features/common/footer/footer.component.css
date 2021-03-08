@@ -1,4 +1,19 @@
-
+.footer-bottom {
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+  text-align: center;
+  background: #1486c8;
+}
+.fix-center {
+  max-width: 1086px;
+  margin: 0 auto;
+  width: 95%;
+}
+.footer-bottom p {
+  font: 200 14px 'PT Sans', sans-serif;
+  color: #fff;
+}
 /*------------------------------------------------------------------
     PRICING TABLES
 -------------------------------------------------------------------*/

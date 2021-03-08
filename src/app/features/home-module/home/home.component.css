@@ -1,0 +1,226 @@
+
+.why-comply {
+  width: 100%;
+  float: left;
+  padding: 35px 0;
+}
+article, aside, figure, footer, header, nav, section {
+  display: block;
+}
+.fix-center {
+  max-width: 1086px;
+  margin: 0 auto;
+  width: 95%;
+}
+.left-comply {
+  width: 40%;
+  float: left;
+  padding-right: 50px;
+}
+.left-comply h2 {
+  color: #414042;
+  font: 300 84px/92px Oswald, sans-serif;
+}
+.left-comply span {
+  font-weight: 900;
+}
+.gcolor {
+  color: #1486c8!important;
+}
+.right-comply {
+  width: 60%;
+  float: left;
+}
+.right-comply p {
+  font: 300 16px/24px 'PT Sans', sans-serif!important;
+  margin-bottom: 15px;
+  color: #414042;
+}
+.right-comply ul {
+  padding-left: 22px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* ------------------------- Product Look ----------------------- */
+
+
+
+.product-look {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: #f2eed6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fix-center {
+    max-width: 1086px;
+    margin: 0 auto;
+    width: 95%;
+}
+.product-look h3 {
+    font: 300 28px/34px 'PT Sans', sans-serif!important;
+    color: #414042;
+    margin-bottom: 10px;
+}
+ul.number-plist {
+    list-style: none;
+    width: 100%;
+    float: left;
+    margin: 40px 0;
+}
+ul.number-plist li {
+  width: 33%;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 0 24px;
+}
+.product-look h3 {
+  font: 300 28px/34px 'PT Sans', sans-serif!important;
+  color: #414042;
+  margin-bottom: 10px;
+}
+
+
+/* ---------------------------------------- Product View ------------------------------------- */
+.product-views {
+  width: 100%;
+  float: left;
+  background: #e6e7e8;
+  padding: 40px 0;
+}
+.product-views p sup {
+  top: -.5em!important;
+  font-size: 10px!important;
+  color: #414042;
+}
+.prct-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.prct-title h2 {
+  color: #414042;
+  font: 500 34px/40px Oswald, sans-serif;
+  margin-bottom: 6px;
+}
+.cdivid-part {
+  width: 100%;
+  display: table;
+  margin: 20px 0;
+  vertical-align: middle;
+}
+.cdividleft {
+  width: 60%;
+  display: table-cell;
+  padding-right: 6%;
+  vertical-align: middle;
+}
+.cdividleft p {
+  font: 300 16px/24px 'PT Sans', sans-serif!important;
+  margin-bottom: 15px;
+  color: #414042;
+}
+.cdividleft ul {
+    padding-left: 22px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cdividleft ul li {
+  font: 300 16px/24px 'PT Sans', sans-serif!important;
+  margin-bottom: 6px;
+  color: #414042;
+}
+.cdividright {
+  width: 40%;
+  display: table-cell;
+}
+.cdividright img {
+  max-width: 100%;
+}
+img {
+  border: 0;
+}
+.sets-apart {
+  width: 100%;
+  float: left;
+}
+.full-uliosts {
+  margin-bottom: 20px;
+}
+.full-uliosts h2 {
+  color: #414042;
+  font: 400 36px/42px 'Didact Gothic', sans-serif;
+  margin-bottom: 15px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.sets-apart ul {
+  list-style: none;
+  text-align: left;
+}
+.sets-apart ul li {
+  padding-left: 25px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.sets-apart ul li h4 {
+  font: 300 22px/24px 'PT Sans', sans-serif!important;
+  margin-bottom: 6px;
+}
+.sets-apart li p {
+  font: 300 16px/24px 'PT Sans', sans-serif!important;
+  margin-bottom: 10px;
+  color: #414042;
+}
+.dvcontent-parts {
+  text-align: center;
+}
+.dvcontent-parts ul li {
+  width: 49%;
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: top;
+}
+.sets-apart ul li:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #414042;
+  border-radius: 50%;
+  left: 2px;
+  top: 10px;
+}
+a.p-readmore, a.readless {
+  display: none;
+  font: 600 16px/24px 'PT Sans', sans-serif!important;
+  color: #1486c8!important;
+  text-decoration: underline;
+}
+
+a, a:active, a:focus, a:hover {
+  outline: 0;
+}
+
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}
+.sets-apart ul li h4 {
+  font: 300 22px/24px 'PT Sans', sans-serif!important;
+  margin-bottom: 6px;
+}
+
+.full-uliosts ul li h4 {
+  color: #dd7057;
+}

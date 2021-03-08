@@ -9,7 +9,7 @@ export class MenuServiceService {
 
   getMenu(): Array<any> {
     const menu = [
-      { name: 'home', path: './home', children: [] },
+      // { name: 'home', path: './home', children: [] },
       {
         name: 'about',
         path: './about',

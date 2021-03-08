@@ -3,7 +3,7 @@
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #1486c8;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -28,7 +28,7 @@
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 @media (max-width: 991px) {
@@ -68,7 +68,7 @@
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #1486c8;
+  color: #030d13;
 }
 
 .nav-menu .drop-down ul {
@@ -105,7 +105,7 @@
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #1486c8;
+  color: #030d13;
 }
 
 .nav-menu .drop-down > a:after {
@@ -163,7 +163,7 @@
 }
 
 .get-started-btn:hover {
-  background: #206bfb;
+  background: #06090e;
   color: #fff;
   border-color: #206bfb;
 }
