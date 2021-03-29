@@ -22,10 +22,10 @@ article, aside, figure, footer, header, nav, section {
   font: 300 84px/92px Oswald, sans-serif;
 }
 .left-comply span {
-  font-weight: 900;
+  font-weight: 500;
 }
 .gcolor {
-  color: #1486c8!important;
+  color: #1d84ad!important;
 }
 .right-comply {
   width: 60%;

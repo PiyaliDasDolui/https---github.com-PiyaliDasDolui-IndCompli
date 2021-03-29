@@ -2,15 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-home-header',
-  templateUrl: './home-header.component.html',
-  styleUrls: ['./home-header.component.css']
+  selector: 'app-single-page',
+  templateUrl: './single-page.component.html',
+  styleUrls: ['./single-page.component.css']
 })
-export class HomeHeaderComponent implements OnInit {
+export class SinglePageComponent implements OnInit {
 
   closeResult: string;
   constructor(private modalService: NgbModal) { }
   userName: string = "";
+
 
   ngOnInit() {
   }
