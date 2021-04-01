@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { CarouselComponent } from '../common/carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModuleRoutingModule } from './home-module-routing.module';
+import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import { HomeModuleRoutingModule } from './home-module-routing.module';
   imports: [
     CommonModule,
     NgbModule,
-    HomeModuleRoutingModule
+    HomeModuleRoutingModule,
+    NgxBootstrapIconsModule.pick(allIcons)
   ]
 })
 export class HomeModuleModule { }
