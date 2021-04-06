@@ -11,7 +11,6 @@ import { NavigationComponent } from './navigation/navigation.component';
 import {FormsModule} from '@angular/forms';
 import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
 
-
 @NgModule({
   declarations: [HomeHeaderComponent, FooterComponent, BreadcrumbComponent,CarouselComponent, NavigationComponent],
   imports: [

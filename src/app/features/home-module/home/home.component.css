@@ -226,36 +226,114 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 .box {
   background:#fff;
-  padding: 20px;
+  padding: 60px 20px 20px 20px;
   text-align: center;
   box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
   border-radius: 5px;
   /* position: relative; */
   overflow: hidden;
-  margin: 20px;
+  margin: 5px;
+}
+.box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  padding: 35px 0 10px 0;
+}
+.box p{
+  text-align: justify;
+}
+.about-box {
+  padding-top: 45px;
+  margin-top: 55px
 }
 .icon {
   position: absolute;
-  top: -10px;
+  top: -80px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
-  background: #1d84ad;
-  color: #fff;
-  width: 56px;
-  height: 56px;
+  font-size: 80px;
+  color: #1d84ad;
+  width: 150px;
+  height: 150px;
   line-height: 0;
-  border-radius: 50px;
-  border: 5px solid #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid #1d84ad;
   }
+.fa-folder-open-o{
+  padding-left: 4px;
+}
 
- .box h4 {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 24px;
-    padding: 20px 0 10px 0;
-  }
+.howItworks {
+  width: 100%;
+  float: left;
+  background: #e6e7e8;
+  padding: 60px 0;
+}
+.howItworks h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+}
+.howItworks content p {
+  font-size: 15px;
+  color: #848484;
+}
+.howItworks .accordion-list {
+  padding: 0 100px 60px 0px;
+}
+.howItworks .accordion-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.howItworks .accordion-list .icon-show {
+  display: none;
+}
+
+.howItworks .accordion-list a.collapsed {
+  color: #343a40;
+}
+
+.howItworks .accordion-list a.collapsed:hover {
+  color: #47b2e4;
+}
+
+.howItworks .accordion-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.howItworks .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+.howItworks .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.howItworks .accordion-list li + li {
+  margin-top: 15px;
+}
+
+.howItworks .accordion-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+
+
+
+
 

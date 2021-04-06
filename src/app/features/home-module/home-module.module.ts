@@ -5,12 +5,14 @@ import { CarouselComponent } from '../common/carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModuleRoutingModule } from './home-module-routing.module';
 import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
+import { HowItWorksComponent } from './home/how-it-works/how-it-works.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent
-    ,CarouselComponent
+    ,CarouselComponent,
+    HowItWorksComponent
   ],
   imports: [
     CommonModule,
